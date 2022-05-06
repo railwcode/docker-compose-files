@@ -26,7 +26,7 @@ services:
       #- default
 
   cloudreve: 
-    image: xavierniu/cloudreve:arm64v8
+    image: xavierniu/cloudreve
     restart: always
     labels:
       - "traefik.enable=true"
